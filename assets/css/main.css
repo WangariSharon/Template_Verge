@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*styling body*/
+/*body{
+	background:   linear-gradient(
+      to right, 
+      red, 
+      #f06d06, 
+      rgb(255, 255, 0), 
+      green
+    );
+}*/
+
+/*Tooooo Coooool :-)*/
+body{
+	width: 1349px;
+	font-size: Helvetica;
+	/*margin: 0 auto;*/
+	/*background: linear-gradient(to right, rgba(0,0,255,0.1), rgb(255,255,255));*/
+}
+
+/*styling Header*/
+header{ 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: linear-gradient(to top, rgba(192,192,192,0.6), rgb(255,255,255));
+	-webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	        box-shadow: 0 8px 6px -6px rgba(0,0,0,0.4);
+	/*background: rgba(192,192,192,0.6);*/
+	border: solid 1px transparent;
+	border-radius: 0px 0px 10px 0px;
+	height: 55px;
+	z-index: 1000;
+}
+
+img#logo{
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+div.links{
+	padding: 0px 0px 0px 10px;
+}
+
+ul li{
+	list-style: none;
+	display: inline;
+	margin: 10px 20px 0px 50px;
+}
+ul li a{
+	text-decoration: none;
+	color: rgb(0,0,128);
+}
+
+ul li a:hover{
+	color: rgb(139,69,19);
+	text-decoration: underline;
+}
+
+/*Wrapper Styling*/
+
+div#wrapper{
+	margin: 50px 0px 0px 0px;
+}
+
+div.mini_header{
+	border: solid 1px transparent;
+	width: 100%;
+	background:  linear-gradient(
+      to bottom, 
+      rgba(0,0,100,0.9), 
+      rgba(0,0,150,0.9)
+    ); /*rgba(0,0,128,0.9);*/
+    border-radius: 10px 0px 10px 0px;
+
+}
+
+p.divider{
+	border-bottom: solid 1px rgba(192,192,192,0.4);
+	padding: 0px 15px 0px 8px;
+}
+
+h2#little_baby{
+	color: rgb(255,255,255);
+	padding: 0px 0px 0px 10px;
+	font-size: 27px;
+}
+
+div#page_content{
+		box-shadow: inset -10px 0px 10px -7px rgba(0,0,0,0.4);
+/*	-webkit-box-shadow: 1px 0 2px rgb(192,192,192);
+   -moz-box-shadow: 1px 0 2px rgb(192,192,192);
+    box-shadow: 1px 0 2px rgb(192,192,192);*/
+	/*-moz-box-shadow:    inset 0 0 10px #000000;
+   	-webkit-box-shadow: inset 0 0 10px #000000;
+   	box-shadow:         inset 0 0 10px #000000;*/
+	border: solid 1px transparent;
+	float: left;
+	background:  rgba(192,192,192,0.1);
+	color: rgb(105,105,105);
+}
+
+div.info_temp{
+	width: 1150px;
+	position: relative;
+	z-index: 1; /* prevent shadows falling behind containers with backgrounds */
+	overflow: hidden;
+	border-left: solid 1px rgba(192,192,192,0.3);
+	border-bottom: solid 1px rgba(192,192,192,0.3);
+	border-radius: 10px 0px 0px 0px;
+	margin: 20px 0px 30px 190px;
+	padding: 0px 0px 20px 0px;
+}
+
+div.info_temp:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-width: 0 60px 60px 0;
+  border-style: solid;
+  border-color: rgb(192,192,192) #fff;
+
+}
+/*div.info_temp:before,
+div.info_temp:after {
+ position: relative;
+float: left;
+width: 250px;
+height: 150px;
+padding: 0;
+border: 1px solid #efefef;
+margin: 0 30px 30px 0;
+background: #fff;
+-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; 
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset; }*/
+
+
+div.smallest_header{
+	border: solid 1px #fff;
+	background: #1c334d;
+	color: #fff;
+	padding: 2px 0px 2px 5px;
+	border-radius: 10px 0px 0px 0px;
+	letter-spacing: 0.1em;
+}
+
+p.sub_titles1{
+	padding: 0px 0px 0px 20px;
+	line-height: 1.5em;
+}
+
+p.sub_titles2{
+	padding: 0px 0px 0px 20px;
+	line-height: 1.5em;
+}
+
+p.sub_titles3{
+	padding: 0px 0px 0px 20px;
+	line-height: 1.5em;
+}
+
+p.sub_titles4{
+	padding: 0px 0px 160px 20px;
+	line-height: 1.5em;
+	float: left;
+}
+
+p.invoices_one{
+	margin: 0px 0px 0px 200px;
+	border: solid 1px transparent;
+	width: 300px;
+	float: left;
+	line-height: 1.4em;
+}
+
+
+p.invoices_two{
+	border: solid 1px transparent;
+	width: 300px;
+	margin: 0px 0px 0px 700px;
+	line-height: 1.4em;
+}
+
+p.sub_titles5{
+	padding: 0px 0px 0px 20px;
+	line-height: 1.5em;
+	float: left;
+}
+
+p.payment_one{
+	margin: 0px 0px 0px 190px;
+	border: solid 1px transparent;
+	width: 300px;
+	float: left;
+	line-height: 1.4em;
+}
+
+p.payment_two{
+	margin: 0px 0px 0px 700px;
+	border: solid 1px transparent;
+	width: 300px;
+	line-height: 1.4em;
+}
+
+p b{
+	color: rgb(112,128,144);
+	font-size: 20px;
+}
